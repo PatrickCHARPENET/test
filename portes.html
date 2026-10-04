@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Choisis une porte</title>
+</head>
+
+<body>
+
+  <h1>Choisis une porte</h1>
+
+  <button onclick="rouge()">PORTE ROUGE</button>
+  <button onclick="bleue()">PORTE BLEUE</button>
+
+  <h2 id="message"></h2>
+
+  <script>
+    function rouge() {
+      document.getElementById("message").innerText =
+        "Tu as choisi la porte rouge.";
+    }
+
+    function bleue() {
+      document.getElementById("message").innerText =
+        "Tu as choisi la porte bleue.";
+    }
+  </script>
+
+</body>
+</html>
